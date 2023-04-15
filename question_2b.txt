@@ -1,0 +1,69 @@
+Heartbeat during idle
+D[0] = 0x01
+D[1] = 0x00
+D[2] = 0x00
+D[3] = 0x00
+D[4] = 0x00
+D[5] = 0x00
+D[6] = 0x00
+D[7] = 0x00
+
+Heartbeat during charging
+D[0] = 0x02
+D[1] = 0x00
+D[2] = 0x00
+D[3] = 0x00
+D[4] = 0x00
+D[5] = 0x00
+D[6] = 0x00
+D[7] = 0x00
+
+Heartbeat when stop charging
+D[0] = 0x01
+D[1] = 0x00
+D[2] = 0x00
+D[3] = 0x00
+D[4] = 0x00
+D[5] = 0x00
+D[6] = 0x00
+D[7] = 0x00
+
+Incoming (BMS to charger) during start charging assuming reference is 32.1V and 100A
+D[0] = 0x01
+D[1] = 0x41
+D[2] = 0x03
+D[3] = 0xE8
+D[4] = 0x01
+D[5] = 0x00
+D[6] = 0x00
+D[7] = 0x00
+
+Outgoing (Charger to BMS) during start charging assuming feedback is 29.9V and 80A
+D[0] = 0x01
+D[1] = 0x2B
+D[2] = 0x03
+D[3] = 0x20
+D[4] = 0x01
+D[5] = 0x00
+D[6] = 0x00
+D[7] = 0x00
+
+Incoming (BMS to charger) during stop charging assuming reference is 32.1V and 100A
+D[0] = 0x01
+D[1] = 0x41
+D[2] = 0x03
+D[3] = 0xE8
+D[4] = 0x00
+D[5] = 0x00
+D[6] = 0x00
+D[7] = 0x00
+
+Incoming (BMS to charger) during stop charging assuming feedback is 32.1V and 1A
+D[0] = 0x01
+D[1] = 0x41
+D[2] = 0x00
+D[3] = 0x01
+D[4] = 0x00
+D[5] = 0x00
+D[6] = 0x00
+D[7] = 0x00
